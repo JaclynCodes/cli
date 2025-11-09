@@ -2,7 +2,11 @@ module github.com/cli/cli/v2
 
 go 1.25.0
 
+bump-go-1.25.3
+toolchain go1.25.3
+=======
 toolchain go1.25.2
+trunk
 
 require (
 	github.com/AlecAivazis/survey/v2 v2.3.7
