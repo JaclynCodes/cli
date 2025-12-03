@@ -8,7 +8,7 @@ import (
 )
 
 // TestWindowsFind tests the Windows-specific Find implementation
-// This test can run on any platform but tests the Windows logic
+// This test only runs on Windows and tests the Windows logic
 func TestWindowsFind(t *testing.T) {
 	if runtime.GOOS != "windows" {
 		t.Skip("Skipping Windows-specific test on non-Windows platform")
